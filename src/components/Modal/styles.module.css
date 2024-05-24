@@ -1,0 +1,57 @@
+.modal {
+  background-color: #8f8f8f;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  z-index: 99;
+  justify-content: center;
+}
+.box {
+  width: 48rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 0.9rem 1.8rem 0 #002e3940;
+  background-color: #fff;
+  padding: 2.4rem 3.2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}
+.icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #222;
+}
+.form {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.form label {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.btns{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.centered{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+}

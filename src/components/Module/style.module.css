@@ -1,0 +1,112 @@
+.modules {
+  margin: 0 auto;
+  margin-top: 2.4rem;
+  width: 96.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.moduleBox {
+  border-radius: 0.8rem;
+  border: 1px solid #ebebeb;
+  padding: 0.8rem;
+  padding-right: 1.6rem;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 96.6rem;
+}
+.box .moduleBox{
+    padding-left: 4rem !important;
+}
+.mod{
+    margin-bottom: -2.4rem;
+}
+.modCont{
+    display: flex;
+    flex-direction: column;
+  width: 96.6rem;
+}
+.moduleLeft {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.moduleChildren{
+    height: 24rem;
+    background-color: #ebebeb;
+}
+.iconContainer {
+  border: 1px solid #ebebeb;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.linkContainer {
+  background-color: #ebfcff;
+  padding: 0.8rem;
+  border-radius: 0.64rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pdfContainer {
+  background-color: #fff5f7;
+  padding: 0.8rem;
+  border-radius: 0.64rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkIcon {
+  font-size: 2rem;
+  color: #05b2c7;
+}
+.pdfIcon {
+  font-size: 2rem;
+  color: #F75961;
+}
+.icon {
+  font-size: 2rem;
+  color: #717171;
+}
+.iconn {
+  font-size: 1.6rem;
+  color: #717171;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.text h1 {
+  font-size: 1.4rem;
+  margin: 0 !important;
+  color: #222;
+  line-height: 2rem;
+}
+.text p {
+  margin: 0 !important;
+  font-size: 1.2rem;
+  color: #717171;
+  line-height: 1.6rem;
+}
+.moduleRight {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moduleRight:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+.resourceHead{
+    font-weight: 500;
+}

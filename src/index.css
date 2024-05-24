@@ -1,0 +1,74 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* line-height: 1.5; */
+  font-weight: 400;
+
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+
+  /* font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  /* min-width: 320px;
+  min-height: 100vh; */
+  background-color: #f9f9f9;
+}
+*{
+  font-size: 62.5%;
+}
+.Toastify__toast-body div{
+  font-size: 1.4rem;
+}
+.box {
+  /* border: 2px solid black; */
+  border-radius: 4px;
+  width: 99.1rem;
+  padding-bottom: 2.4rem;
+  /* margin: 10px 80px 0 0; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}.highlighted .box {
+  border-top: 2px solid #008392;
+  border-radius: 0;
+}
+.box_item_component .highlighted .outer {
+  width: 99.1rem !important;
+  border-top: 40px solid #ddd;
+}
+.item{
+  /* display: flex;
+  align-items: center; */
+  /* gap: 3rem; */
+}
+.box .moduleBox{
+  padding-left: 5rem;
+  width: 92.4rem !important;
+  margin-right: -5rem;
+}
+.moduleBox {
+  border-radius: 0.8rem;
+  border: 1px solid #ebebeb;
+  padding: 0.8rem;
+  padding-right: 1.6rem;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 96.6rem !important;
+}
+.smooth-dnd-container.vertical > .smooth-dnd-draggable-wrapper{
+  overflow: visible !important;
+}
+.smooth-dnd-draggable-wrapper{
+  width: 99.1rem;
+}
